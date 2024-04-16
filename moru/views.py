@@ -69,7 +69,7 @@ def safaris(request):
     context = {
         'footers': footers,
     }
-    return render(request, 'ultimateeastafrica.html', context)
+    return render(request, 'safaris.html', context)
 
 
 def tours(request):
@@ -87,7 +87,7 @@ def ultimateeastafrica(request):
     context = {
         'footers': footers,
     }
-    return render(request, 'visitkenya.html', context)
+    return render(request, 'ultimateeastafrica.html', context)
 
 
 def visitkenya(request):
@@ -95,7 +95,7 @@ def visitkenya(request):
     context = {
         'footers': footers,
     }
-    return render(request, 'visitrwanda.html', context)
+    return render(request, 'visitkenya.html', context)
 
 
 def visitrwanda(request):
@@ -103,7 +103,7 @@ def visitrwanda(request):
     context = {
         'footers': footers,
     }
-    return render(request, 'visitkenya.html', context)
+    return render(request, 'visitrwanda.html', context)
 
 
 def visittz(request):
